@@ -1,14 +1,10 @@
 import { useState, useEffect } from 'react'
 import { Box, Stack, Typography } from '@mui/material'
-import { Sidebar, Videos } from './components'
+import { Sidebar, Videos } from './'
 
 const Feed = () => {
   return (
-    <Stack
-      sx={{
-        flexDirection: { sx: 'column', md: 'row' }
-      }}
-    >
+    <Stack sx={{flexDirection: { sx: 'column', md: 'row' }}}>
       <Box
         sx={{
           height: { sx: 'auto', md: '92vh' },
